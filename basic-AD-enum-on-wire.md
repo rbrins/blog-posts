@@ -14,7 +14,7 @@ https://www.varonis.com/blog/powershell-active-directory-module
 import-module ActiveDIrectory
 Get-ADDomain
 ```
-![AD module Results](Pasted image 20220525224735.png)
+![AD module Results](/blog-posts/Pasted image 20220525224735.png)
 
 
 **Wireshark From the ActiveDirectory module**
