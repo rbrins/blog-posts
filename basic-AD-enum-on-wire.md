@@ -14,7 +14,7 @@ https://www.varonis.com/blog/powershell-active-directory-module
 import-module ActiveDIrectory
 Get-ADDomain
 ```
-![AD module Results](/Pasted image 20220525224735.png)
+![AD module Results](Pasted image 20220525224735.png)
 
 
 **Wireshark From the ActiveDirectory module**
@@ -61,6 +61,6 @@ LDAPMessage searchRequest(1) "<ROOT>" baseObject
 From the ldapwiki.com https://ldapwiki.com/wiki/BaseObject
 "BaseObject is a specification for [LDAP Search Scopes](https://ldapwiki.com/wiki/LDAP%20Search%20Scopes) that specifies that the [Search Request](https://ldapwiki.com/wiki/SearchRequest) should only be performed against the [entry](https://ldapwiki.com/wiki/LDAP%20Entry) specified as the search [base DN](https://ldapwiki.com/wiki/BaseDN)." 
 But this returns the domain rather quickly in the 10 packet after the TCP handshake THEN LDAP request
-![C# AD results](/Pasted image 20220525233537.png)
+![C# AD results](Pasted image 20220525233537.png)
 
 but it goes on to create 312 more packets. With an LDAP authentication right after the answer is given.
